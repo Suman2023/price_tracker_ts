@@ -8,7 +8,7 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.TrackerModule = void 0;
 const common_1 = require("@nestjs/common");
-const tracker_controller_1 = require("./tracker.controller");
+const tracker_controller_1 = require("../tracker/tracker.controller");
 const tracker_service_1 = require("./tracker.service");
 let TrackerModule = class TrackerModule {
 };

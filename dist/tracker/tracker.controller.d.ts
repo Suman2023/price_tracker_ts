@@ -1,5 +1,5 @@
 import { CreateTrackerDTO } from 'src/dto/tracker.dto';
-import { TrackerService } from './tracker.service';
+import { TrackerService } from 'src/tracker/tracker.service';
 export declare class TrackerController {
     private trackerService;
     constructor(trackerService: TrackerService);
